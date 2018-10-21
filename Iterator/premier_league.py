@@ -22,4 +22,3 @@ class PremierLeague(Aggregate):
     def iterator(self) -> Iterator:
         # return LeagueIterator(self)
         return PremierLeagueIterator(self)
-        
